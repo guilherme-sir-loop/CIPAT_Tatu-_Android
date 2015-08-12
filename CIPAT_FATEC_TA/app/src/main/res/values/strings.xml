@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CIPAT_FATEC_TA</string>
+
+        <string name="action_settings">Settings</string>
+    <string name="Demonstração">Demonstração de Imagem</string>
+    <string name="imagemDemonstrativa">imagemDemonstrativa</string>
+</resources>
