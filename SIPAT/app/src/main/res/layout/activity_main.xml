@@ -39,20 +39,70 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/lbl_talks"
-                        android:id="@+id/textView" />
+                        android:id="@+id/txtTalks"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_warning"
+                        android:id="@+id/txtWarning" />
+
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/tab2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/lbl_sipat"
+                        android:id="@+id/txtAboutSipat"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/txt_sipat"
+                        android:id="@+id/txtSipat"
+                        android:singleLine="true" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/tab3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/lbl_creditos"
+                        android:id="@+id/txtCreditos" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/txt_nomes"
+                        android:id="@+id/txtNome" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/txtOrientador"
+                        android:id="@+id/txtOrientador" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/txtSipa"
+                        android:id="@+id/txtOrganizador" />
+                </LinearLayout>
             </FrameLayout>
         </LinearLayout>
     </TabHost>
