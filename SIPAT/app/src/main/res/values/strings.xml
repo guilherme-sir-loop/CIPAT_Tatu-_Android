@@ -11,4 +11,9 @@
     <string name="txt_nomes">Guilherme Augusto Peixoto de Campos</string>
     <string name="txtOrientador">Professor Orientador:Clóvis de Souza Dias</string>
     <string name="txtSipa">Organizador CIPA:Sérgio Stefan Barci</string>
+    <string name="btn_manha">Manhã</string>
+    <string name="btn_evening">Tarde</string>
+    <string name="btn_night">Noite</string>
+    <string name="txt_textosipat">Semana com a tematica de prevenção de acidentes de trabalho.</string>
+    <string name="txt_mestrecerimonia">Mestre de Cerimônia: Osvaldo D\'Estefano Rosica</string>
 </resources>

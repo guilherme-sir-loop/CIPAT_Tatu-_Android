@@ -48,6 +48,24 @@
                         android:text="@string/lbl_warning"
                         android:id="@+id/txtWarning" />
 
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_manha"
+                        android:id="@+id/btnMorning" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_evening"
+                        android:id="@+id/btnEvening" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_night"
+                        android:id="@+id/btnNight" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -66,10 +84,10 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:text="@string/txt_sipat"
                         android:id="@+id/txtSipat"
-                        android:singleLine="true" />
+                        android:singleLine="false" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -79,29 +97,36 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/lbl_creditos"
                         android:id="@+id/txtCreditos" />
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:text="@string/txt_nomes"
                         android:id="@+id/txtNome" />
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:text="@string/txtOrientador"
                         android:id="@+id/txtOrientador" />
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:text="@string/txtSipa"
                         android:id="@+id/txtOrganizador" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/txt_mestrecerimonia"
+                        android:id="@+id/textView" />
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>
