@@ -46,7 +46,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_warning"
-                        android:id="@+id/txtWarning" />
+                        android:id="@+id/txtWarning"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <Button
                         android:layout_width="fill_parent"
@@ -87,7 +88,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/txt_sipat"
                         android:id="@+id/txtSipat"
-                        android:singleLine="false" />
+                        android:singleLine="false"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
                 </LinearLayout>
 
                 <LinearLayout

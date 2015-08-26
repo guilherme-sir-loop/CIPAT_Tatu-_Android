@@ -4,9 +4,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="lbl_talks">Palestras</string>
-    <string name="lbl_warning">Atenção: A lista de plaestras abaixo é referente ao evento da SIPA no ano de 2015, e já ocorreu. Sendo que a próxima só ocorrerá no ano de 2016.</string>
+    <string name="lbl_warning">Atenção: A lista de palestras abaixo é referente ao evento da SIPAT no ano de 2015, e já ocorreu. Sendo que a próxima só ocorrerá no ano de 2016.</string>
     <string name="lbl_sipat">O que é SIPAT?</string>
-    <string name="txt_sipat">Com o fim de previnir acidentes de trabalho foi criado o SIPAT, sendo que nessa evento de uma semana a palestras e atividades.</string>
+    <string name="txt_sipat">Com o fim de previnir acidentes de trabalho foi criado o e promover o bem-estar do trabalhador  SIPAT, sendo que nessa evento é por palestras e atividades, e geralmente tem periodo de duração de uma semana.</string>
     <string name="lbl_creditos">Créditos</string>
     <string name="txt_nomes">Guilherme Augusto Peixoto de Campos</string>
     <string name="txtOrientador">Professor Orientador:Clóvis de Souza Dias</string>
