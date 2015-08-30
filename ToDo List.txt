@@ -1,6 +1,5 @@
 #ToDo List
-Ampliar o tamanho do texto.
-Colocar dias da semana em negrito
+Colocar dias da semana em negrito na janela de confirmação
 Colocar hyperlink nos nomes dos palestrantes
 Mudar a cor do botão de confirmação e centraliza-lo
 Espaço entre créditos e os nomes
