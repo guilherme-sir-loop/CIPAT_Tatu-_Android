@@ -1,9 +1,10 @@
 #ToDo List
 Colocar dias da semana em negrito na janela de confirmação
 Colocar hyperlink nos nomes dos palestrantes
-Mudar a cor do botão de confirmação e centraliza-lo
-Espaço entre créditos e os nomes
+Mudar a cor do botão de confirmação para vermelho e centraliza-lo
+Colocar espaço entre créditos e os nomes
 Apagar Settings ou troca-lo por Sobre
 Acrecentar mais texto na segunda aba
+Colocar o icone do SIPAT como o padrão para exibição desse aplicativo no android
 
  
