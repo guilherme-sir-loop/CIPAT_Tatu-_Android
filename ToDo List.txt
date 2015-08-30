@@ -1,3 +1,10 @@
 #ToDo List
-Utilizar abas, no total 3, sendo que uma terá uma listagem de palestra, a o outra sobre o que é CIPAT e a terceira serão os créditos.
+Ampliar o tamanho do texto.
+Colocar dias da semana em negrito
+Colocar hyperlink nos nomes dos palestrantes
+Mudar a cor do botão de confirmação e centraliza-lo
+Espaço entre créditos e os nomes
+Apagar Settings ou troca-lo por Sobre
+Acrecentar mais texto na segunda aba
+
  
