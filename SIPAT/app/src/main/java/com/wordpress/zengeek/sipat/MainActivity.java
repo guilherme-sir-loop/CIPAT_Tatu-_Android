@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnMorning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
                 dlg.setMessage("Segunda\nTipo:Palestra\nTema:Dengue\nHorário:10h\nPalestrante:Tony\n\n"+
                                "Terça\nTipo:Palestra\nTema:Fisoterapia/LER\nHorário:10h\nPalestrante:Silva\n\n"+
                                "Quarta\nTipo:Atividade\nTema:Fono\nHorário:9-12h\nPalestrante:Gislene\n\n"+
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btnEvening.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
                 dlg.setMessage("Segunda\nTipo:Atividade\nTema:Fono\nHorário:14-16h\nPalestrante:Gislaine\n\n"+
                         "Terça\nTipo:Palestra\nTema:DENARC(conscientização sobre o uso indevido de narcóticos)\nHorário:16-17h\nPalestrante:Marcio Rodrigues\n\n"+
                         "Quarta\nTipo:Palestra\nTema:DST/AIDS/HIV/Sifilis\nHorário:14-15h\nPalestrante:Marilu\n\n"+
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         btnNight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
                 dlg.setMessage("Segunda\nTipo:Palestra\nTema:Segurança do Trabalho\nHorário:19h\nPalestrante:Prof. Otávio\n\n"+
                         "Terça\nTipo:Palestra\nTema:Direção Defensiva\nHorário:19h\nPalestrante:Sr. Carlos Eduardo");
                 dlg.setNeutralButton("Ok",null);

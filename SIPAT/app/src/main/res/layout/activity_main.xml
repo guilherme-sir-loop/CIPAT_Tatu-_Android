@@ -103,7 +103,13 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/lbl_creditos"
-                        android:id="@+id/txtCreditos" />
+                        android:id="@+id/txtCreditos"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblEspaco" />
 
                     <TextView
                         android:layout_width="wrap_content"
