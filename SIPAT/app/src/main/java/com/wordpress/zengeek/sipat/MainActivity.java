@@ -3,6 +3,7 @@ package com.wordpress.zengeek.sipat;
 import android.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.*;
@@ -27,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
-                dlg.setMessage("Segunda\nTipo:Palestra\nTema:Dengue\nHorário:10h\nPalestrante:Tony\n\n"+
-                               "Terça\nTipo:Palestra\nTema:Fisoterapia/LER\nHorário:10h\nPalestrante:Silva\n\n"+
-                               "Quarta\nTipo:Atividade\nTema:Fono\nHorário:9-12h\nPalestrante:Gislene\n\n"+
-                               "Quinta\nTipo:Atividade\nTema:Odontologia\nHorário:9-12h\nPalestrante:Leandro");
-                dlg.setNeutralButton("Ok",null);
+                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda" + "</b></p>" + "\nTipo:Palestra\nTema:Dengue\nHorário:10h\nPalestrante:Tony" +
+                        "<p><b>" + "Terça" + "</b></p>" + "Tipo:Palestra\nTema:Fisoterapia/LER\nHorário:10h\nPalestrante:Silva\n\n" +
+                        "<p><b>" + "Quarta" + "</b></p>" + "Tipo:Atividade\nTema:Fono\nHorário:9-12h\nPalestrante:Gislene\n\n" +
+                        "<p><b>" + "Quinta" + "</b></p>" + "Tipo:Atividade\nTema:Odontologia\nHorário:9-12h\nPalestrante:Leandro"));
+                dlg.setNeutralButton("Ok", null);
                 dlg.show();
 
 
@@ -41,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
-                dlg.setMessage("Segunda\nTipo:Atividade\nTema:Fono\nHorário:14-16h\nPalestrante:Gislaine\n\n"+
-                        "Terça\nTipo:Palestra\nTema:DENARC(conscientização sobre o uso indevido de narcóticos)\nHorário:16-17h\nPalestrante:Marcio Rodrigues\n\n"+
-                        "Quarta\nTipo:Palestra\nTema:DST/AIDS/HIV/Sifilis\nHorário:14-15h\nPalestrante:Marilu\n\n"+
-                        "Quinta\nTipo:Palestra\nTema:Orientação sobre sexualidade/mama/próstata\n Horário:14h\nPalestrante:Karina");
+                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda"+ "</b></p>"+ "Tipo:Atividade\nTema:Fono\nHorário:14-16h\nPalestrante:Gislaine\n\n"+
+                        "<p><b>" + "Terça"+"</b></p>" + "Tipo:Palestra\nTema:DENARC(conscientização sobre o uso indevido de narcóticos)\nHorário:16-17h\nPalestrante:Marcio Rodrigues\n\n"+
+                        "<p><b>" + "Quarta" + "</b></p>" + "Tipo:Palestra\nTema:DST/AIDS/HIV/Sifilis\nHorário:14-15h\nPalestrante:Marilu\n\n"+
+                        "<p><b>" + "Quinta" + "</b></p>" + "Tipo:Palestra\nTema:Orientação sobre sexualidade/mama/próstata\n Horário:14h\nPalestrante:Karina"));
                 dlg.setNeutralButton("Ok",null);
                 dlg.show();
 
@@ -54,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
-                dlg.setMessage("Segunda\nTipo:Palestra\nTema:Segurança do Trabalho\nHorário:19h\nPalestrante:Prof. Otávio\n\n"+
-                        "Terça\nTipo:Palestra\nTema:Direção Defensiva\nHorário:19h\nPalestrante:Sr. Carlos Eduardo");
+                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda"+ "</b></p>"+"Tipo:Palestra\nTema:Segurança do Trabalho\nHorário:19h\nPalestrante:Prof. Otávio\n\n"+
+                        "<p><b>" + "Terça"+"</b></p>" + "Tipo:Palestra\nTema:Direção Defensiva\nHorário:19h\nPalestrante:Sr. Carlos Eduardo"));
                 dlg.setNeutralButton("Ok",null);
                 dlg.show();
 
