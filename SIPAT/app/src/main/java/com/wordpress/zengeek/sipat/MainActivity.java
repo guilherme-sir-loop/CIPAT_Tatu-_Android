@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btnMorning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
                 dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda" + "</b></p>" + "\nTipo:Palestra\nTema:Dengue\nHorário:10h\nPalestrante:Tony" +
                         "<p><b>" + "Terça" + "</b></p>" + "Tipo:Palestra\nTema:Fisoterapia/LER\nHorário:10h\nPalestrante:Silva\n\n" +
                         "<p><b>" + "Quarta" + "</b></p>" + "Tipo:Atividade\nTema:Fono\nHorário:9-12h\nPalestrante:Gislene\n\n" +
@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
         btnEvening.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
-                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda"+ "</b></p>"+ "Tipo:Atividade\nTema:Fono\nHorário:14-16h\nPalestrante:Gislaine\n\n"+
-                        "<p><b>" + "Terça"+"</b></p>" + "Tipo:Palestra\nTema:DENARC(conscientização sobre o uso indevido de narcóticos)\nHorário:16-17h\nPalestrante:Marcio Rodrigues\n\n"+
-                        "<p><b>" + "Quarta" + "</b></p>" + "Tipo:Palestra\nTema:DST/AIDS/HIV/Sifilis\nHorário:14-15h\nPalestrante:Marilu\n\n"+
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
+                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda" + "</b></p>" + "Tipo:Atividade\nTema:Fono\nHorário:14-16h\nPalestrante:Gislaine\n\n" +
+                        "<p><b>" + "Terça" + "</b></p>" + "Tipo:Palestra\nTema:DENARC(conscientização sobre o uso indevido de narcóticos)\nHorário:16-17h\nPalestrante:Marcio Rodrigues\n\n" +
+                        "<p><b>" + "Quarta" + "</b></p>" + "Tipo:Palestra\nTema:DST/AIDS/HIV/Sifilis\nHorário:14-15h\nPalestrante:Marilu\n\n" +
                         "<p><b>" + "Quinta" + "</b></p>" + "Tipo:Palestra\nTema:Orientação sobre sexualidade/mama/próstata\n Horário:14h\nPalestrante:Karina"));
-                dlg.setNeutralButton("Ok",null);
+                dlg.setNeutralButton("Ok", null);
                 dlg.show();
 
             }
@@ -54,10 +54,10 @@ public class MainActivity extends AppCompatActivity {
         btnNight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_DARK);
-                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda"+ "</b></p>"+"Tipo:Palestra\nTema:Segurança do Trabalho\nHorário:19h\nPalestrante:Prof. Otávio\n\n"+
-                        "<p><b>" + "Terça"+"</b></p>" + "Tipo:Palestra\nTema:Direção Defensiva\nHorário:19h\nPalestrante:Sr. Carlos Eduardo"));
-                dlg.setNeutralButton("Ok",null);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
+                dlg.setMessage(Html.fromHtml("<p><b>" + "Segunda" + "</b></p>" + "Tipo:Palestra\nTema:Segurança do Trabalho\nHorário:19h\nPalestrante:Prof. Otávio\n\n" +
+                        "<p><b>" + "Terça" + "</b></p>" + "Tipo:Palestra\nTema:Direção Defensiva\nHorário:19h\nPalestrante:Sr. Carlos Eduardo"));
+                dlg.setNeutralButton("Ok", null);
                 dlg.show();
 
             }
@@ -76,21 +76,38 @@ public class MainActivity extends AppCompatActivity {
         //Tab2 about SIPAT(it is event which have the focus of prevent accidents)
         th.setup();
         TabHost.TabSpec ts2 = th.newTabSpec("Tab2");
-        ts2.setIndicator("Sobre");
+        ts2.setIndicator("O que é SIPAT");
         ts2.setContent(R.id.tab2);
         th.addTab(ts2);
 
-        //Tab2 about SIPAT(it is event which have the focus of prevent accidents)
-        th.setup();
-        TabHost.TabSpec ts3 = th.newTabSpec("Tab2");
-        ts3.setIndicator("Créditos");
-        ts3.setContent(R.id.tab3);
-        th.addTab(ts3);
+
+
+
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.about:
+                AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
+                dlg.setMessage(Html.fromHtml("<p><b>" + "Créditos"+ "</b></p>"+"Guilherme Augusto Peixoto de Campos"+ "<p><b>" + "Professor Orientador:Clóvis de Souza Dias"+ "<p><b>" + "Organizador CIPA:Sérgio Stefan Barci" + "<p><b>" + "Mestre de Cerimômia: Osvaldo de D'Estefano Rosica"));
+                dlg.setNeutralButton("Ok",null);
+                dlg.show();
 
 
 
 
 
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 

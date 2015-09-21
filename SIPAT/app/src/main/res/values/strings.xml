@@ -7,13 +7,11 @@
     <string name="lbl_warning">Atenção: A lista de palestras abaixo é referente ao evento da SIPAT no ano de 2015, e já ocorreu. Sendo que a próxima só ocorrerá no ano de 2016.</string>
     <string name="lbl_sipat">O que é SIPAT?</string>
     <string name="txt_sipat">Com o fim de previnir acidentes de trabalho foi criado o e promover o bem-estar do trabalhador  SIPAT, sendo que nessa evento é por palestras e atividades, e geralmente tem periodo de duração de uma semana.</string>
-    <string name="lbl_creditos">Créditos</string>
-    <string name="txt_nomes">Guilherme Augusto Peixoto de Campos</string>
-    <string name="txtOrientador">Professor Orientador:Clóvis de Souza Dias</string>
     <string name="txtSipa">Organizador CIPA:Sérgio Stefan Barci</string>
     <string name="btn_manha">Manhã</string>
     <string name="btn_evening">Tarde</string>
     <string name="btn_night">Noite</string>
     <string name="txt_textosipat">Semana com a tematica de prevenção de acidentes de trabalho.</string>
     <string name="txt_mestrecerimonia">Mestre de Cerimônia: Osvaldo D\'Estefano Rosica</string>
+    <string name="lbl_about">Sobre</string>
 </resources>
