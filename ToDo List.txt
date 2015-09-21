@@ -1,8 +1,6 @@
 #ToDo List
 Colocar hyperlink nos nomes dos palestrantes
 Mudar a cor do botão de confirmação para vermelho e centraliza-lo
-Apagar Settings ou troca-lo por Sobre
-Acrecentar mais texto na segunda aba
 Colocar o icone do SIPAT como o padrão para exibição desse aplicativo no android
 
  
